@@ -53,6 +53,12 @@ body {
 }
 
 /* main section */
+
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
 .about {
   padding: 130px;
   border-radius: 10px;
@@ -71,4 +77,13 @@ body {
   text-align: center;
   font-size: 18px;
   font-weight: 400;
+}
+
+.about-info-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.abt-info{
+    text-align: center;
 }
